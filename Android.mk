@@ -22,6 +22,10 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),HWPLK)
+ifneq ($(filter HWPLK,$(TARGET_DEVICE)),)
+
 include $(call all-makefiles-under,$(LOCAL_PATH))
+
+include $(CLEAR_VARS)
+
 endif

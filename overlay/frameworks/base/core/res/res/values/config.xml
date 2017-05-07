@@ -2609,6 +2609,45 @@
     <!-- Whether to persist the notification for when a usb drive device is plugged in -->
     <bool name="config_persistUsbDriveNotification">false</bool>
 
-    <!--Added by PSX Project AD -->
+<add-resource>config_data_usage_network_types</add-resource>
+<add-resource>config_wifi_enable_5GHz_preference appears</add-resource>
+<add-resource>config_wifi_framework_current_association_hysteresis_high</add-resource>
+<add-resource>config_wifi_framework_current_association_hysteresis_low</add-resource>
+<add-resource>config_wifi_framework_5GHz_preference_penalty_factor</add-resource>
+<add-resource>config_wifi_disconnected_long_scan_interval</add-resource>
+<add-resource>config_wifi_associated_long_scan_interval</add-resource>
+<add-resource>config_wifi_framework_associated_partial_scan_max_num_passive_channels</add-resource>
+<add-resource>config_wifi_framework_max_connection_errors_to_blacklist</add-resource>
+<add-resource>config_wifi_framework_max_auth_errors_to_blacklist</add-resource>
+<add-resource>config_wifi_framework_network_black_list_min_time_milli</add-resource>
+<add-resource>config_initial_saved_channel_scan_interval</add-resource>
+<add-resource>config_wifi_driver_stop_delay</add-resource>
+<add-resource>config_wifi_hal_pno_enable</add-resource>
+<add-resource>config_wifi_ssid_white_list_enable</add-resource>
+<add-resource>config_wifi_ecbm_mode_change</add-resource>
+<add-resource>config_orientationSensorType</add-resource>
+<add-resource>config_multiColorNotificationLed</add-resource>
+<add-resource>config_multiColorBatteryLed</add-resource>
+<add-resource>config_ledCanPulse</add-resource>
+<add-resource>config_geofenceProvider</add-resource>
+<add-resource>config_allowActionMenuItemTextWithIcon</add-resource>
+<add-resource>config_colorTransforms</add-resource>
+<add-resource>useImsAlwaysForEmergencyCall</add-resource>
+<add-resource>config_deviceKeyHandlerLib</add-resource>
+<add-resource>config_deviceKeyHandlerClass</add-resource>
+<add-resource>config_webViewPackageName</add-resource>
+<add-resource>config_alternateWebViewPackageName</add-resource>
+<add-resource>config_fingerprintRestrictedToSystemAndOwner</add-resource>
+<add-resource>config_sms_ringtone_incall</add-resource>
+<add-resource>config_wifi_ipreachability_monitor</add-resource>
+<add-resource>config_reject_ggsn_perm_failure</add-resource>
+<add-resource>config_protocol_errors_perm_failure</add-resource>
+<add-resource>config_hasRemovableLid</add-resource>
+<add-resource>config_stylusGestures</add-resource>
+<add-resource>config_region_locked_packages</add-resource>
+<add-resource>config_restrict_to_region_locked_devices</add-resource>
+<add-resource>config_LTE_RSRP_custom_levels</add-resource>
+<add-resource>config_LTE_RSRP_custom_levels</add-resource>
+<add-resource>config_showBatteryFullyChargedNotification</add-resource>
 
 </resources>

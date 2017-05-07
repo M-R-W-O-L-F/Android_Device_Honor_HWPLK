@@ -14,4 +14,4 @@
 
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_HWPLK.mk
+    $(LOCAL_DIR)/lineage_HWPLK.mk

@@ -26,7 +26,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/huawei/HWPLK/device_HWPLK.mk)
+$(call inherit-product, device/huawei/HWPLK/lineage_HWPLK.mk)
 
 # Correct boot animation size for the screen
 DEVICE_SCREEN_HEIGHT := 1920
@@ -35,7 +35,7 @@ DEVICE_SCREEN_WIDTH := 1080
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
 
 PRODUCT_RELEASE_NAME := lineage-14.1
-PRODUCT_NAME := device_HWPLK
+PRODUCT_NAME := lineage_HWPLK
 PRODUCT_BOARD := PLK-LO1
 PRODUCT_DEVICE := HWPLK
 PRODUCT_BRAND := HONOR
